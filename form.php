@@ -1,4 +1,4 @@
-<form method="post" action="index.php">
+<form method="post">
 	<p>
 		<label for="ime">Ime:</label>
 		<input type="text" name="ime" id="ime" autofocus >
