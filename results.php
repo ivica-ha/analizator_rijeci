@@ -1,8 +1,9 @@
 <?php
 
+require_once 'functions.php';
+
 if(isset($_POST['submit'])){
-	echo 'Tvoje ime je: ' . $_POST['ime'] . '<br>';
-	echo 'Tvoje prezime je: ' . $_POST['prezime'] . '<br>';
+	echo to_uppercase('Tvoja riječ je: ' . $_POST['word'] . '<br>');
 
 } else {
 	header('Location:index.php');
