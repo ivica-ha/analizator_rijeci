@@ -1,4 +1,4 @@
-<form method="post" action="results.php">
+<form method="post" action="validation.php">
 	<p>
 		<label for="word">Unesite riječ:</label>
 		<input type="text" name="word" id="word" autofocus >

@@ -1,7 +1,5 @@
 <?php
 
-
-
 if (empty($_POST['word']))  {
     echo 'Unesite riječ'.'<br>';
 }
@@ -17,3 +15,5 @@ elseif (!preg_match('/^[\p{Latin}]+$/u', $_POST['word'])) {
 	header('Location:index.php');
 	exit();
 }
+
+echo '<a href="http://localhost/PHP_Algebra/Zadatak%20Analizator%20rijeci/"><< Natrag na početnu stranicu</a>';
